@@ -1,0 +1,7 @@
+-i3
+-i3blocks
+-compton
+-arc-theme (dark)
+
+on linux mint 18.2
+wallpaper: http://hubblesite.org/image/3620/gallery
