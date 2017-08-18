@@ -169,6 +169,13 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Volume Control
+bindsym $mod+Control+Down exec amixer -q sset Master 3%-
+bindsym $mod+Control+Up exec amixer -q sset Master 3%+
+
+# ScreenShot Tool
+bindsym $mod+Control+P exec python ~/Programming/Python/ScreenShotTool/screenshottool.py
+
 # Currently unused inactive-bg-color #000c18
 set $bg-color 	         #6688cc
 set $inactive-bg-color   #050230
@@ -202,3 +209,4 @@ bar {
 
 exec_always feh --bg-scale /home/tygrak/Pictures/wallpaper.jpg
 exec compton
+exec fluxgui
