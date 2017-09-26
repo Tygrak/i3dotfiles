@@ -176,8 +176,8 @@ bindsym $mod+Control+Up exec amixer -q sset Master 3%+
 # ScreenShot Tool
 bindsym $mod+Control+P exec python ~/Programming/Python/ScreenShotTool/screenshottool.py
 
-# Activate Screensaver
-bindsym $mod+Control+O exec xset s activate
+# Activate Screensaver / Lock
+bindsym $mod+Control+O exec i3lock -c 000000
 
 # Currently unused inactive-bg-color #000c18
 set $bg-color 	         #6688cc
