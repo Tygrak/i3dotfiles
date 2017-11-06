@@ -78,7 +78,7 @@ xkb_symbols "tygrak" {
     name[Group1]= "Czech Tygrak";
     //key.type="Ctrl+Alt_L3";
 
-    key <TLDE>  { [ semicolon, asciitilde,    grave,   dead_abovering ] };
+    key <TLDE>  { [ semicolon, asciitilde,        grave,   dead_abovering ] };
     key <AE01>  { [ ampersand,          1,       exclam,   dead_tilde ] };
     key <AE02>  { [       bar,          2,       ecaron,   dead_caron ] };
     key <AE03>  { [    scaron,          3,   numbersign, dead_circumflex ] };
@@ -90,17 +90,17 @@ xkb_symbols "tygrak" {
     key <AE09>  { [    iacute,          9,    braceleft,   dead_acute ] };
     key <AE10>  { [    eacute,          0,   braceright, dead_doubleacute ] };
     key <AE11>  { [     equal,    percent,     NoSymbol, dead_diaeresis]};
-    key <AE12>  { [braceright, braceleft,  dead_macron, dead_cedilla ] };
+    key <AE12>  { [braceright,  braceleft,  dead_macron, dead_cedilla ] };
 
     key <AD01>  { [         q,          Q,    backslash,     NoSymbol ] };
     key <AD02>  { [         w,          W,          bar,     Nosymbol ] };
-    key <AD03>  { [         e,          E,     EuroSign,     NoSymbol ] };
+    key <AD03>  { [         e,          E,       ecaron,     NoSymbol ] };
     key <AD04>  { [         r,          R,     NoSymbol,     NoSymbol ] };
     key <AD05>  { [         t,          T,     NoSymbol,     NoSymbol ] };
     key <AD06>  { [         z,          Z,     NoSymbol,     NoSymbol ] };
     key <AD07>  { [         u,          U,     NoSymbol,     NoSymbol ] };
     key <AD08>  { [         i,          I,     NoSymbol,     NoSymbol ] };
-    key <AD09>  { [         o,          O,     NoSymbol,     NoSymbol ] };
+    key <AD09>  { [         o,          O,       oacute,     NoSymbol ] };
     key <AD10>  { [         p,          P,     NoSymbol,     NoSymbol ] };
 
     key <AD11>  { [    uacute,      slash,  bracketleft,     division ] };
@@ -127,7 +127,7 @@ xkb_symbols "tygrak" {
     key <AB03>  { [         c,          C,    ampersand,     NoSymbol ] };
     key <AB04>  { [         v,          V,           at,     NoSymbol ] };
     key <AB05>  { [         b,          B,    braceleft,     NoSymbol ] };
-    key <AB06>  { [         n,          N,   braceright,     NoSymbol ] };
+    key <AB06>  { [         n,          N,       ncaron,     NoSymbol ] };
     key <AB07>  { [         m,          M,  asciicircum,     NoSymbol ] };
     key <AB08>  { [     comma,   question,         less,     NoSymbol ] };
     key <AB09>  { [    period,      colon,      greater,     NoSymbol ] };
