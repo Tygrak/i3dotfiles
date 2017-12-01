@@ -118,6 +118,16 @@ bindsym $mod+yacute workspace $workspace7
 bindsym $mod+aacute workspace $workspace8
 bindsym $mod+iacute workspace $workspace9
 bindsym $mod+eacute workspace $workspace0
+bindsym $mod+1 workspace $workspace1
+bindsym $mod+2 workspace $workspace2
+bindsym $mod+3 workspace $workspace3
+bindsym $mod+4 workspace $workspace4
+bindsym $mod+5 workspace $workspace5
+bindsym $mod+6 workspace $workspace6
+bindsym $mod+7 workspace $workspace7
+bindsym $mod+8 workspace $workspace8
+bindsym $mod+9 workspace $workspace9
+bindsym $mod+0 workspace $workspace0
 
 # move focused container to workspace
 bindsym $mod+Shift+ampersand move container to workspace $workspace1
@@ -130,6 +140,16 @@ bindsym $mod+Shift+yacute move container to workspace $workspace7
 bindsym $mod+Shift+aacute move container to workspace $workspace8
 bindsym $mod+Shift+iacute move container to workspace $workspace9
 bindsym $mod+Shift+eacute move container to workspace $workspace0
+bindsym $mod+Shift+1 move container to workspace $workspace1
+bindsym $mod+Shift+2 move container to workspace $workspace2
+bindsym $mod+Shift+3 move container to workspace $workspace3
+bindsym $mod+Shift+4 move container to workspace $workspace4
+bindsym $mod+Shift+5 move container to workspace $workspace5
+bindsym $mod+Shift+6 move container to workspace $workspace6
+bindsym $mod+Shift+7 move container to workspace $workspace7
+bindsym $mod+Shift+8 move container to workspace $workspace8
+bindsym $mod+Shift+9 move container to workspace $workspace9
+bindsym $mod+Shift+0 move container to workspace $workspace0
 
 assign [class="Firefox"] $workspace1
 assign [class="Code"] $workspace2
@@ -179,6 +199,10 @@ bindsym $mod+Control+P exec python ~/Programming/Python/ScreenShotTool/screensho
 # Activate Screensaver / Lock
 bindsym $mod+Control+O exec i3lock -c 000000
 
+# Change keyboards for wine
+# Set keyboard layout
+bindsym $mod+Control+L exec python ~/Programming/Python/XkbLayout/xkblayout.py
+
 # Currently unused inactive-bg-color #000c18
 set $bg-color 	         #6688cc
 set $inactive-bg-color   #050230
@@ -217,4 +241,4 @@ exec fluxgui
 exec xset -dpms
 exec xset s off
 # Set keyboard layout
-exec setxkbmap -model pc105 -layout "cz,us" -variant "tygrak,basic" -option grp:lalt_lshift_toggle
+exec setxkbmap -model pc105 -layout "cz,us,cz" -variant "tygrak,basic,rus" -option grp:ralt_rshift_toggle
