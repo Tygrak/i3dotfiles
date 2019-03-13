@@ -1,7 +1,12 @@
 -i3
 -i3blocks
 -compton
+-feh
+-fluxgui
 -arc-theme (dark)
+    -lxappearence to set it
+-firefox arc-theme dark
 
 on linux mint 18.2
+currwallpaper: idk
 wallpaper: http://hubblesite.org/image/3620/gallery
