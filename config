@@ -196,6 +196,8 @@ bindsym $mod+Control+Up exec amixer -q sset Master 3%+
 
 # ScreenShot Tool
 bindsym $mod+Control+P exec python ~/Programming/Python/ScreenShotTool/screenshottool.py
+bindsym Print exec gnome-screenshot -cw
+bindsym Control+Print exec gnome-screenshot
 
 # Calculator
 bindsym $mod+acute exec rofi -show calc -modi calc -no-show-match -no-sort
